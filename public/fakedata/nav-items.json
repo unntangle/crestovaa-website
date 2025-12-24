@@ -1,0 +1,88 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "About Us",
+		"path": "/about"
+	},
+	{
+		"id": 3,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Job Consultancy",
+				"icon": "tji-service-1",
+				"svgIcon": "/images/icons/services/briefcase.svg",
+				"path": "/services/1",
+				"submenu": [
+					{
+						"name": "IT Placement",
+						"path": "#"
+					},
+					{
+						"name": "Non IT Placement",
+						"path": "#"
+					},
+					{
+						"name": "BPO Placement",
+						"path": "#"
+					},
+					{
+						"name": "Banking and Finance Placement",
+						"path": "#"
+					},
+					{
+						"name": "Contracts based Govt Jobs",
+						"path": "#"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"name": "Website Development",
+				"icon": "tji-service-2",
+				"svgIcon": "/images/icons/services/code.svg",
+				"path": "/services/2"
+			},
+			{
+				"id": 3,
+				"name": "Mobile Application",
+				"icon": "tji-service-3",
+				"svgIcon": "/images/icons/services/mobile.svg",
+				"path": "/services/3"
+			},
+			{
+				"id": 4,
+				"name": "Software Development",
+				"icon": "tji-service-4",
+				"svgIcon": "/images/icons/services/settings.svg",
+				"path": "/services/4"
+			},
+			{
+				"id": 5,
+				"name": "Digital Marketing",
+				"icon": "tji-service-5",
+				"svgIcon": "/images/icons/services/megaphone.svg",
+				"path": "/services/5"
+			},
+			{
+				"id": 6,
+				"name": "BPO",
+				"icon": "tji-service-6",
+				"svgIcon": "/images/icons/services/headset.svg",
+				"path": "/services/6"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]
